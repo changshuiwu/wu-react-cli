@@ -6,7 +6,7 @@ export default class Home extends ComponentExt {
   handClick = (): void => {
     import(/* webpackChunkName: 'test' */ '@/components/Test/index').then(() => {
       console.log(12);
-    })
+    });
   };
 
   render(): JSX.Element {

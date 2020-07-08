@@ -48,7 +48,7 @@ module.exports = {
         properties: 'always'
       }
     ],
-    'comma-dangle': [2, 'never'],
+    // 'comma-dangle': [2, 'never'],
     'comma-spacing': [
       2,
       {
@@ -212,14 +212,14 @@ module.exports = {
     //     allowTemplateLiterals: true
     //   }
     // ],
-    semi: [2, 'never'],
-    'semi-spacing': [
-      2,
-      {
-        before: false,
-        after: true
-      }
-    ],
+    // semi: [2, 'never'],
+    // 'semi-spacing': [
+    //   2,
+    //   {
+    //     before: false,
+    //     after: true
+    //   }
+    // ],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],

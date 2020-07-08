@@ -1,4 +1,4 @@
-import { action, observable } from 'mobx'
+import { action, observable } from 'mobx';
 
 export class GlobalStore {
   @observable
@@ -6,12 +6,12 @@ export class GlobalStore {
 
   @action
   increase = (num: number): void => {
-    this.num += num
+    this.num += num;
   };
 
   @action
   decrease = (num: number): void => {
-    this.num -= num
+    this.num -= num;
   };
 }
 
