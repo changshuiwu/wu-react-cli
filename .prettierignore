@@ -1,0 +1,14 @@
+package.json
+build/ 
+cache-loader/
+dist/
+node_modules/
+.DS_Store
+.babelrc
+.eslintignore
+.eslintrc
+.prettierignore
+*.md 
+.gitignore
+package.json
+.stylelintrc
