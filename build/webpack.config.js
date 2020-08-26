@@ -16,6 +16,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx'],
         alias:{
            '@': resolve('src/'),
+           '@components': resolve('src/components/'),
            "views": resolve('src/containers/views/'),
            "shared": resolve('src/containers/shared/')
         }

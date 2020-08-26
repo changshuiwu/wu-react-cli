@@ -4,7 +4,7 @@ import { Button } from 'antd';
 
 export default class Home extends ComponentExt {
   handClick = (): void => {
-    import(/* webpackChunkName: 'test' */ '@/components/Test/index').then(() => {
+    import(/* webpackChunkName: 'test' */ '@components/Brandstand/index').then(() => {
       console.log(12);
     });
   };
