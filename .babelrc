@@ -1,6 +1,8 @@
 {
     "plugins": [
+        ["import", { "libraryName": "antd-mobile", "style": "css" }],
         "@babel/plugin-syntax-dynamic-import",
         "react-hot-loader/babel"
-    ]
+    ],
+    "presets": []
 }

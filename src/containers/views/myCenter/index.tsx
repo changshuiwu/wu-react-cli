@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-mobile';
+// import 'antd-mobile/dist/antd-mobile.css'
 
 export default class Home extends React.Component {
   handClick = (): void => {
@@ -9,9 +10,7 @@ export default class Home extends React.Component {
   render(): JSX.Element {
     return (
       <div>
-        1
-        <br />
-        1
+       <Button type="primary">12</Button>
         <br />1
         <br />1
         <br />1

@@ -1,8 +1,6 @@
 import React from 'react';
 import { ComponentExt } from '@/utils/reactExt';
-import { Button } from 'antd';
 import { observer, inject } from 'mobx-react';
-
 // 开发时使用
 import { hot } from 'react-hot-loader';
 
@@ -23,8 +21,6 @@ export default class Counter extends ComponentExt<IProps> {
     return (
       <div>
         <p>{num}</p>
-        <Button onClick={this.increase}>+++</Button>
-        <Button>-</Button>
       </div>
     );
   }

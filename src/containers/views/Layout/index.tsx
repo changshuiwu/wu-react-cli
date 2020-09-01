@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@components/Header/index'; 
-import Bandstand from '@components/Brandstand/index';
 import Footer  from "@components/Footer/index";
+import './index.scss'
 
 export default class MainLayout extends React.Component {
     render() {
@@ -10,7 +10,9 @@ export default class MainLayout extends React.Component {
         return (
             <div className="qqMiusic-mainlayout">
                 <Header />
-                { children }
+                <section className="qqMiusic-content">
+                    { children }
+                </section>
                 <Footer />
             </div>
         )

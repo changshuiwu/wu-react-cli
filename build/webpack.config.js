@@ -35,13 +35,13 @@ module.exports = {
                             useBabel: true,
                             babelCore: '@babel/core',
                             cacheDirectory: resolve('cache-loader'),
-                            babelOptions: {
-                                babelrc: false,
-                                plugins: [
-                                    "@babel/plugin-syntax-dynamic-import",
-                                    "react-hot-loader/babel"
-                                ]
-                            }
+                            // babelOptions: {
+                            //     babelrc: false,
+                            //     plugins: [
+                            //         "@babel/plugin-syntax-dynamic-import",
+                            //         "react-hot-loader/babel"
+                            //     ]
+                            // }
                         }
                     }
                 ]
