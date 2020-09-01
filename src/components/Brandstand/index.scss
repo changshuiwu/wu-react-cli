@@ -1,0 +1,30 @@
+
+.brandstand {
+    background-color: #fff;
+    position: fixed;
+    width: 80vw;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+    z-index: 9999;
+
+    ul {
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

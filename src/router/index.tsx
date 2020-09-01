@@ -8,7 +8,7 @@ function Loading() {
     return <div>loading.....</div>
   }
   
-  const Home = Loadable({
+  const MyCenter = Loadable({
     loader: () => import(/* webpackChunkName: 'home' */ 'views/myCenter'),
     loading: Loading
   })
@@ -22,7 +22,7 @@ export default () => {
     return (
         <MainLayout>
             <Switch>
-                <Route exact path='/' component={Home} />
+                <Route exact path='/' component={MyCenter} />
                 <Route path='/page' component={Page} />
             </Switch>
         </MainLayout>

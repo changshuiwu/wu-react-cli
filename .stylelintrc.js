@@ -6,6 +6,8 @@ module.exports = {
     rules: {
         "at-rule-no-unknown": [true, {
             "ignoreAtRules": ["function", "if", "each", "include", "mixin"]
-          }]
+          }],
+        // "no-eol-whitespace": "inside-block",
+        "indentation": 4,
     }
 }

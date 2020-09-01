@@ -8,6 +8,7 @@ import * as store from './store';
 
 import 'antd/dist/antd.css';
 import './index.scss';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 configure({
   enforceActions: 'observed',

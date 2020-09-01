@@ -1,8 +1,9 @@
 
 @import 'var.scss';
+@import './styles/normalize.css';
 
 .hello {
-  color: $red;
+    color: $red;
 
-  @include ellipsis;
+    @include ellipsis;
 }

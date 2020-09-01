@@ -1,0 +1,29 @@
+
+.oc-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 11;
+
+    .oc-header-list {
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .brandstand-enter {
+        transform: translateX(-100%);
+    }
+
+    .brandstand-enter-active {
+        transform: translateX(0);
+        transition: transform 200ms ease-in;
+    }
+
+    .brandstand-exit-active {
+        transform: translateX(-100%);
+        transition: transform 200ms ease-in;
+    }
+}

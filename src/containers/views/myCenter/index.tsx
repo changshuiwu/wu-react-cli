@@ -1,18 +1,56 @@
 import React from 'react';
-import { ComponentExt } from '@/utils/reactExt';
 import { Button } from 'antd';
 
-export default class Home extends ComponentExt {
+export default class Home extends React.Component {
   handClick = (): void => {
-    import(/* webpackChunkName: 'test' */ '@components/Brandstand/index').then(() => {
-      console.log(12);
-    });
+   console.log(12)
   };
 
   render(): JSX.Element {
     return (
       <div>
-        <Button onClick={this.handClick}>加载</Button>
+        1
+        <br />
+        1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br /><br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />1
+        <br />
       </div>
     );
   }

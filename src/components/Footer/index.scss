@@ -1,0 +1,30 @@
+
+.qqMusic-footer {
+    .qqMusic-footer-list {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0;
+        justify-content: space-around;
+        text-align: center;
+
+        a {
+            color: #373737;
+        }
+    }
+
+    .qqMusic-enter,
+    .qqMusic-exit {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    .qqMusic-enter-active,
+    .qqMusic-exit-active {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 200ms ease-in, transform 200ms ease-in;
+    }
+}
